@@ -1,0 +1,15 @@
+gpu: 0
+batch_size: 64
+dataset: bindingdb
+epochs: 400
+gat_head: 8
+compound_head: 8
+decoder_head: 8
+lr: 1e-05
+seed: 42
+weight_decay: 0.0001
+num_layers_compound_decoder: 1
+num_layers_protein_bilstm: 1
+num_layers_decoder: 3
+save_dir: ./result
+fold: 0

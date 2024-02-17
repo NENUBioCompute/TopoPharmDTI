@@ -1,0 +1,15 @@
+gpu: 1
+batch_size: 64
+dataset: celegans
+epochs: 200
+gat_head: 4
+compound_head: 4
+decoder_head: 4
+lr: 1e-05
+seed: 42
+weight_decay: 0.0001
+num_layers_compound_decoder: 2
+num_layers_protein_bilstm: 1
+num_layers_decoder: 2
+save_dir: celegans/result
+fold: 3
