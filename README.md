@@ -14,7 +14,7 @@
 
 
 ## Inference
-`prediction.py` makes the inference, the input are protein sequence and compound SMILES. 
+`prediction.py` makes the inference. 
 
 ## Trained models
 Trained models is now available freely at https://drive.google.com/drive/folders/1IsCny9cWGYaemmvuGNDfMbvHkNrfaHBa?usp=sharing.
