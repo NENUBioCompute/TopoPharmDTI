@@ -7,6 +7,9 @@
 
 ##  Source codes:
 + cpi_model.py: TopoPharmDTI model file
++ smiles2graph.py: Generate drug features
++ smiles2subgraph.py: Generate drug subgraph features
++ protein_embedding.py: Generate protein features
 + train.py: train a TopoPharmDTI model.
 
 
