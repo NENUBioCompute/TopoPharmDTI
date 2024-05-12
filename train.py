@@ -15,7 +15,6 @@ import csv
 from torch.optim.lr_scheduler import ReduceLROnPlateau, MultiStepLR, StepLR
 import random
 
-
 def set_random_seed(seed, deterministic=False):
     torch.manual_seed(seed)
     torch.cuda.manual_seed(seed)
@@ -35,7 +34,7 @@ def get_time_str():
     day = now.day
     hour = now.hour
     minute = now.minute
-    # 将提取的信息格式化为用下划线隔开的字符串
+
     formatted_str = f"{month:02d}_{day:02d}_{hour:02d}_{minute:02d}"
     return formatted_str
 
@@ -127,7 +126,7 @@ def train(model, num_epochs, batch_size, lr, decay, train_dataset, dev_dataset, 
                 compound_sub_data = data['compound_sub_data'].to(device)
                 compound_len_data = data['compound_len_data']
                 idx = data['idx']
-                # print(idx)
+
                 edge_rdkit = data['edge_rdkit']
                 edge_attr = data['edge_attr'].to(device)
                 protein_data = data['protein_data'].to(device)
