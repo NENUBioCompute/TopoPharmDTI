@@ -1,5 +1,5 @@
 # TopoPharmDTI
-
+![image]()
 # Resources:
 
 + README.md: this file.
@@ -17,7 +17,7 @@
 `prediction.py` makes the inference. 
 
 ## Trained models
-Trained models is now available freely at https://drive.google.com/drive/folders/1IsCny9cWGYaemmvuGNDfMbvHkNrfaHBa?usp=sharing.
+Trained models and data is now available freely at https://drive.google.com/drive/folders/1IsCny9cWGYaemmvuGNDfMbvHkNrfaHBa?usp=sharing.
 
 
 
