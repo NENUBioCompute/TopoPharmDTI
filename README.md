@@ -28,4 +28,4 @@ Trained models and data is now available freely at https://drive.google.com/driv
     python prediction.py
 ````
 ## Case study
-![image]()
+![image](https://github.com/NENUBioCompute/TopoPharmDTI/blob/main/Figure/Case%20study.png)
