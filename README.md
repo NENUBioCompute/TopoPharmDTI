@@ -1,5 +1,5 @@
 # TopoPharmDTI
-![image]()
+![image](https://github.com/NENUBioCompute/TopoPharmDTI/blob/main/Figure/Model%20architecture.png)
 # Resources:
 
 + README.md: this file.
