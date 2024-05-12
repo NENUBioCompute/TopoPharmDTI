@@ -1,4 +1,4 @@
-# TopoPharmDTI
+# TopoPharmDTI: Improving Interactions Prediction by Enhanced Deep Learning Representa-tion for Both Drug and Target Molecules
 ![image](https://github.com/NENUBioCompute/TopoPharmDTI/blob/main/Figure/Model%20architecture.png)
 # Resources:
 
