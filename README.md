@@ -2,7 +2,6 @@
 ![image](https://github.com/NENUBioCompute/TopoPharmDTI/blob/main/Figure/Model%20architecture.png)
 # Resources:
 
-+ README.md: this file.
 + result file: benchmark dataset, label reversal dataset, time-split dataset
 
 ##  Source codes:
@@ -13,12 +12,20 @@
 + train.py: train a TopoPharmDTI model.
 
 
-## Inference
-`prediction.py` makes the inference. 
-
 ## Trained models
 Trained models and data is now available freely at https://drive.google.com/drive/folders/1IsCny9cWGYaemmvuGNDfMbvHkNrfaHBa?usp=sharing.
 
+## Run
++ generate drug and protein features：Generate two types of drug features through smiles2Graph.py and smiles2Subgraph.py, respectively
++ Generate protein features by running protein_embedding.py
++ begain train
 
-
-
+````
+    python train.py
+````
++ inference:Load the trained model for testing on the testset
+````
+    python prediction.py
+````
+## Case study
+![image]()
