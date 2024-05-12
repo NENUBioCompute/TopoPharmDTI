@@ -1,9 +1,17 @@
 # TopoPharmDTI: Improving Interactions Prediction by Enhanced Deep Learning Representa-tion for Both Drug and Target Molecules
 ## Model architecture
 ![image](https://github.com/NENUBioCompute/TopoPharmDTI/blob/main/Figure/Model%20architecture.png)
-# Resources:
 
-+ result file: benchmark dataset, label reversal dataset, time-split dataset
+## Setup and dependencies
+dependencies:
++ python 3.9
++ pytorch >= 2.0.1
++ numpy
++ pandas
++ RDkit
++ pandas
++ pyg
+
 
 ##  Source codes:
 + cpi_model.py: TopoPharmDTI model file
@@ -13,8 +21,8 @@
 + train.py: train a TopoPharmDTI model.
 
 
-## Trained models
-Trained models and data is now available freely at https://drive.google.com/drive/folders/1IsCny9cWGYaemmvuGNDfMbvHkNrfaHBa?usp=sharing.
+## Model and Datasets
+Trained models and datasets is now available freely at https://drive.google.com/file/d/1SX8xc_jHDnGyPRKm6m6_oe_H9hXHkfyN/view?usp=sharing.
 
 ## Run
 + generate drug and protein features：Generate two types of drug features through smiles2Graph.py and smiles2Subgraph.py, respectively
