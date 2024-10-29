@@ -9,7 +9,6 @@ dependencies:
 + numpy
 + pandas
 + RDkit
-+ pandas
 + pyg
 
 
